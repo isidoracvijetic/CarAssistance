@@ -900,6 +900,8 @@ progress {
 .col-1 {
   flex: 0 0 auto;
   width: 8.33333333%;
+  background-color: #20304017;
+  border-radius: 5px;
 }
 
 .col-2 {
@@ -4381,6 +4383,7 @@ textarea.form-control-lg {
 }
 
 .card {
+  box-shadow: 6px 8px #9a35350d;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -4390,6 +4393,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  
 }
 .card > hr {
   margin-right: 0;
